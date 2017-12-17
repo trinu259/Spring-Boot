@@ -1,7 +1,7 @@
 package com.javapoint.user;
 
 public class User1 {
-	
+	private String mailId;
 	private String name;
 	private String password;
 
@@ -19,6 +19,14 @@ public class User1 {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getMailId() {
+		return mailId;
+	}
+
+	public void setMailId(String mailId) {
+		this.mailId = mailId;
 	}
 
 	
